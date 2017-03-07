@@ -27,49 +27,28 @@ export default {
     }
 }
 
+
 </script>
 
-<style>
-.tab {
-  position: relative;
-  display: flex;
-  width: 100%;
-  height: 40px;
-  line-height: 40px;
-}
-.tab:after {
-  display: block;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  border-top: 1px solid rgba(7,17,27,0.1);
-  content: ' ';
-}
-
-@media (-webkit-min-device-pixel-ratio: 1.5) {
-  .border-1px::after {
-    -webkit-transform: scaleY(0.7);
-    transform: scaleY(0.7);
+<style lang="scss">
+  @import "./common/scss/index.scss";
+  .app {
+    .tab {
+      display: flex;
+      width: 100%;
+      height: 40px;
+      line-height: 40px;
+      @include border-1px(rgba(7, 17, 27, 0.1));
+      .tab-item {
+        flex: 1;
+        text-align: center;
+      }
+      .tab-item a {
+        display: block;
+      }
+      .tab-item .active {
+        color: #f01414;
+      }
+    }
   }
-}
-
-@media (-webkit-min-device-pixel-ratio: 2) {
-  .border-1px::after {
-    -webkit-transform: scaleY(0.5);
-    transform: scaleY(0.5);
-  }
-}
-
-.tab-item {
-  flex: 1;
-  text-align: center;
-}
-
-.tab-item a {
-  display: block;
-}
-.tab-item .active{
-  color: #f01414;
-}
 </style>

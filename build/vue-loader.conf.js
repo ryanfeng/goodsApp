@@ -10,3 +10,6 @@ module.exports = {
     extract: isProduction
   })
 }
+
+
+var re = /^1\d{10}$/;

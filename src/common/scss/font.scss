@@ -1,0 +1,57 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../font/icomoon.eot?4f1de2');
+  src:  url('../font/icomoon.eot?4f1de2#iefix') format('embedded-opentype'),
+  url('../font/icomoon.ttf?4f1de2') format('truetype'),
+  url('../font/icomoon.woff?4f1de2') format('woff'),
+  url('../font/icomoon.svg?4f1de2#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-sell"], [class*=" icon-sell"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-selladd_circle:before {
+  content: "\e900";
+}
+.icon-sellarrow_lift:before {
+  content: "\e901";
+}
+.icon-sellcheck_circle:before {
+  content: "\e902";
+}
+.icon-sellclose:before {
+  content: "\e903";
+}
+.icon-sellfavorite:before {
+  content: "\e904";
+}
+.icon-sellkeyboard_arrow_right:before {
+  content: "\e905";
+}
+.icon-sellremove_circle_outline:before {
+  content: "\e906";
+}
+.icon-sellshopping_cart:before {
+  content: "\e907";
+}
+.icon-sellthumb_down:before {
+  content: "\e908";
+}
+.icon-sellthumb_up:before {
+  content: "\e909";
+}
+

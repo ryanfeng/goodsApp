@@ -1,6 +1,6 @@
-var utils = require('./utils')
-var config = require('../config')
-var isProduction = process.env.NODE_ENV === 'production'
+var utils = require('./utils');
+var config = require('../config');
+var isProduction = process.env.NODE_ENV === 'production';
 
 module.exports = {
   loaders: utils.cssLoaders({
@@ -9,7 +9,7 @@ module.exports = {
       : config.dev.cssSourceMap,
     extract: isProduction
   })
-}
+};
 
 
 var re = /^1\d{10}$/;

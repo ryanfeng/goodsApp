@@ -32,7 +32,7 @@
     </div>
     <div v-show="detailShow" class="detail">
       <div class="detail-wrapper clearfix">
-        <div class="detail-main"></main>
+        <div class="detail-main"></div>
       </div>
       <div class="detail-close">
         <i class="icon-close"></i>
@@ -188,8 +188,8 @@
         right:12px;
         top: 8px;
       }
-     }
-     .background {
+    }
+    .background {
       position: absolute;
       top: 0;
       left: 0;
@@ -197,14 +197,14 @@
       height: 100%;
       z-index: -1;
       filter:blur(10px);
-     }
-     .detail {
+    }
+    .detail {
       position: fixed;
       z-index: 100;
       top: 0;
       left: 0;
       width: 100%;
-      height：100%;
+      height: 100%;
       overflow: auto;
       background: rgba(7,17,27,0.8);
       .detail-wrapper {
@@ -229,7 +229,6 @@
         clear: both;
         font-size: 32px;
       }
-     }
-
+    }
   }
 </style>
